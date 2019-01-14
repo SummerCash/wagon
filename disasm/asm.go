@@ -9,9 +9,9 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/go-interpreter/wagon/wasm"
-	"github.com/go-interpreter/wagon/wasm/leb128"
-	ops "github.com/go-interpreter/wagon/wasm/operators"
+	"github.com/SummerCash/wagon/wasm"
+	"github.com/SummerCash/wagon/wasm/leb128"
+	ops "github.com/SummerCash/wagon/wasm/operators"
 )
 
 // Assemble encodes a set of instructions into binary representation.
