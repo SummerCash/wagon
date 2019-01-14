@@ -35,7 +35,7 @@ func (fct *Function) IsHost() bool {
 // Module represents a parsed WebAssembly module:
 // http://webassembly.org/docs/modules/
 type Module struct {
-	Version  uint32
+	Version  uint32 // Version
 	Sections []Section
 
 	Types    *SectionTypes
