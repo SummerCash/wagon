@@ -9,7 +9,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/SummerCash/wagon/wasm/internal/readpos"
+	"github.com/SummerCash/wagon/wasm/intrnl/readpos"
 )
 
 var ErrInvalidMagic = errors.New("wasm: Invalid magic number")

@@ -12,7 +12,7 @@ import (
 	"io/ioutil"
 	"sort"
 
-	"github.com/SummerCash/wagon/wasm/internal/readpos"
+	"github.com/SummerCash/wagon/wasm/intrnl/readpos"
 	"github.com/SummerCash/wagon/wasm/leb128"
 )
 

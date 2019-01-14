@@ -9,7 +9,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/SummerCash/wagon/wasm/internal/readpos"
+	"github.com/SummerCash/wagon/wasm/intrnl/readpos"
 )
 
 func TestRead(t *testing.T) {
