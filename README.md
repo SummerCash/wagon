@@ -1,5 +1,4 @@
-wagon
-=====
+# wagon
 
 [![Build Status](https://travis-ci.org/go-interpreter/wagon.svg?branch=master)](https://travis-ci.org/go-interpreter/wagon)
 [![codecov](https://codecov.io/gh/go-interpreter/wagon/branch/master/graph/badge.svg)](https://codecov.io/gh/go-interpreter/wagon)
@@ -18,10 +17,9 @@ wagon
 
 `wagon` doesn't concern itself with the production of the `wasm` binary files;
 these files should be produced with another tool (such as [wabt](https://github.com/WebAssembly/wabt) or [binaryen](https://github.com/WebAssembly/binaryen).)
-`wagon` *may* provide a utility to produce `wasm` files from `wast` or `wat` files (and vice versa.)
+`wagon` _may_ provide a utility to produce `wasm` files from `wast` or `wat` files (and vice versa.)
 
 The primary goal of `wagon` is to provide the building blocks to be able to build an interpreter for Go code, that could be embedded in Jupyter or any Go program.
-
 
 ## Contributing
 
